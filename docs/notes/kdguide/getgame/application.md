@@ -10,6 +10,6 @@ permalink: /getgame/application/
 
 下载解压(呃，应该不用教吧……)后，游戏文件夹应该如图所示
 
-![](../images/image%20(2).png)
+![](../images/getgame_application_0.png)
 
 双击运行 `KinkyDungeon.exe` 即可
