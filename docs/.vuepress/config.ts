@@ -22,6 +22,15 @@ export default defineUserConfig({
   head: [
     // 配置站点图标
     ['link', { rel: 'icon', type: 'image/png', href: 'https://theme-plume.vuejs.press/favicon-32x32.png' }],
+    
+    // Google Analytics 4
+    ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-L63B832CC7' }],
+    ['script', {}, `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-L63B832CC7');
+    `],
   ],
 
   bundler: viteBundler(),
