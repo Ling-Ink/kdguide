@@ -1,0 +1,3 @@
+Sitemap: https://kdguide.moling.ink/sitemap.xml
+User-agent:*
+Disallow:
