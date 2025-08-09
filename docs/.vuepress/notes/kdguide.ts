@@ -1,4 +1,3 @@
-import type { ThemeNote } from 'vuepress-theme-plume'
 import { defineNoteConfig } from 'vuepress-theme-plume'
 
 export const kdguide = defineNoteConfig({

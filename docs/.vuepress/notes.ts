@@ -21,6 +21,7 @@
  */
 import { defineNoteConfig, defineNotesConfig } from 'vuepress-theme-plume'
 import { kdguide } from './notes/kdguide'
+import { mods } from './notes/mods'
 
 /**
  * 导出所有的 note
@@ -30,5 +31,5 @@ import { kdguide } from './notes/kdguide'
 export default defineNotesConfig({
   dir: 'notes',
   link: '/',
-  notes: [kdguide],
+  notes: [kdguide, mods],
 })
