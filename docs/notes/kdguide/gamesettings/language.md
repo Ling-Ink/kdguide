@@ -13,11 +13,11 @@ permalink: /gamesettings/language/
 启动游戏后，JoiPlay会在游戏目录添加一个 `save` 文件夹用于存放游戏的本地数据
 
 ```bash
-└─KinkyDungeon
+└─/KinkyDungeon
     ...
-    ├─out
-    ├─save # [!code ++]
-    ├─Screens
+    ├─/out
+    ├─/save # [!code ++]
+    ├─/Screens
     ...
     └─index.html
 ```

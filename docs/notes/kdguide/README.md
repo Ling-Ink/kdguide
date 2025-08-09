@@ -5,6 +5,8 @@ permalink: /
 
 这是面向新人的 KinkyDungeon 指导教程，主要解决游戏外的一些问题
 
+如[设置语言](/gamesettings/language)、[安装 Mod](/gamesettings/mods)
+
 持续更新中
 
 ### 所以你想要

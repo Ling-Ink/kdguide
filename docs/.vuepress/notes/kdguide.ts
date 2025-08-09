@@ -22,7 +22,8 @@ export const kdguide = defineNoteConfig({
       icon: 'carbon:settings',
       prefix: 'gamesettings',
       items: [
-        'language'
+        'language',
+        'mods',
       ],
     },
   ],

@@ -8,8 +8,4 @@ permalink: /getgame/application/
 
 你也可以在 [KinkyDungeon吧](https://tieba.baidu.com/f?kw=kinkydungeon) 找到8u分享的网盘链接
 
-下载解压(呃，应该不用教吧……)后，游戏文件夹应该如图所示
-
-![](../images/getgame_application_0.png)
-
-双击运行 `KinkyDungeon.exe` 即可
+下载压缩包并将全部文件解压后，双击运行 `KinkyDungeon.exe` 即可
