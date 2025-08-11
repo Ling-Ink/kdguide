@@ -18,5 +18,12 @@ export default defineClientConfig({
 
     // your custom components
     // app.component('CustomComponent', CustomComponent)
+    if (typeof window !== 'undefined') {
+      setTimeout(() => {
+        document.querySelectorAll('a[target="_blank"]').forEach((link: Element) => {
+          link.setAttribute('rel', 'noopener')
+        })
+      }, 100)
+    }
   },
 })
