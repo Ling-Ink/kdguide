@@ -31,7 +31,9 @@ jobs:
         run: npm run docs:build
 
       - name: Remove noreferrer
-        run: ./scripts/no-noreferrer.sh
+        run: |
+          chmod +x ./scripts/no-noreferrer.sh
+          ./scripts/no-noreferrer.sh
 
       - name: Deploy to GitHub Pages
         if: github.ref == 'refs/heads/main'
